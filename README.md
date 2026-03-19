@@ -1,4 +1,4 @@
-# TropicFruitEC — Guía rápida
+# Agridulmet — Guía rápida
 
 ## ¿Qué es esto?
 
@@ -61,7 +61,7 @@ En `content.json`, busca la sección `"empresa"`:
 
 ```json
 "empresa": {
-  "nombre": "TropicFruitEC",
+  "nombre": "Agridulmet",
   "whatsapp": "593412345678",     ← Tu número SIN + ni espacios
   "email": "tu@email.com",
   "telefono": "+593 4 123 4567",
