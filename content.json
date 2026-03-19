@@ -1,14 +1,15 @@
 {
   "empresa": {
-    "nombre": "Agridulmet SA",
-    "whatsapp": "",
+    "nombre": "Agridulmet",
+    "logo": "images/logo.png",
+    "whatsapp": "593412345678",
     "email": "info@agridulmet.com",
-    "telefono": "",
+    "telefono": "+593 4 123 4567",
     "direccion": { "es": "Guayaquil, Ecuador", "en": "Guayaquil, Ecuador" },
     "redes": {
-      "facebook": "https://facebook.com/",
-      "instagram": "https://instagram.com/",
-      "linkedin": "https://linkedin.com/company/"
+      "facebook": "https://facebook.com/agridulmet",
+      "instagram": "https://instagram.com/agridulmet",
+      "linkedin": "https://linkedin.com/company/agridulmet"
     }
   },
 

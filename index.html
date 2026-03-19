@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Agridulmet— Exportadores de Frutas Premium | Ecuador</title>
+<title>Agridulmet — Exportadores de Frutas Premium | Ecuador</title>
 <meta name="description" content="Exportamos banano, plátano y piña de la más alta calidad desde Ecuador al mundo. Certificaciones internacionales y sostenibilidad.">
 <meta name="keywords" content="exportador banano ecuador, banana export, piña ecuador, plátano barraganete, fruit exporter latin america, organic banana">
 <!-- Open Graph -->
@@ -259,7 +259,7 @@ textarea.fin{min-height:125px;resize:vertical}
 <!-- ═══ NAVBAR ═══ -->
 <nav class="nav" id="nav">
   <div class="wrap ni">
-    <a class="nlogo" href="#home" id="nlogo"><span class="nlogo-i">🌿</span><span>TropicFruit<span class="ac">EC</span></span></a>
+    <a class="nlogo" href="#home" id="nlogo"><img id="nlogo-img" src="" alt="" style="height:36px;display:none"><span id="nlogo-txt"><span class="nlogo-i">🍌</span><span>Agridulmet</span></span></a>
     <ul class="nlinks" id="nlinks"></ul>
     <div class="nright">
       <div class="lsw">
@@ -357,12 +357,12 @@ textarea.fin{min-height:125px;resize:vertical}
 <!-- ═══ FOOTER ═══ -->
 <footer class="ft">
   <div class="ft-in">
-    <div><div class="ft-logo"><span class="fi">🌿</span>TropicFruit<span class="ac">EC</span></div><p class="ft-desc" id="fdesc"></p></div>
+    <div><div class="ft-logo" id="ft-logo"><span class="fi">🍌</span>Agridulmet</div><p class="ft-desc" id="fdesc"></p></div>
     <div><div class="ft-t" id="flt"></div><ul class="ft-links" id="flinks"></ul></div>
     <div><div class="ft-t" id="fct"></div><ul class="ft-links" id="fclinks"></ul></div>
     <div><div class="ft-t">Certificaciones</div><ul class="ft-links" id="fcerts"></ul></div>
   </div>
-  <div class="ft-bot"><span class="ft-copy">© 2026 TropicFruitEC. <span id="frights"></span></span><div class="ft-soc" id="fsoc"></div></div>
+  <div class="ft-bot"><span class="ft-copy">© 2026 Agridulmet. <span id="frights"></span></span><div class="ft-soc" id="fsoc"></div></div>
 </footer>
 
 <!-- ═══ WHATSAPP ═══ -->
@@ -373,7 +373,7 @@ textarea.fin{min-height:125px;resize:vertical}
 
 <script>
 /* ════════════════════════════════════════════════
-   TropicFruitEC — Todo se carga desde content.json
+   Agridulmet — Todo se carga desde content.json
    Para editar el sitio, edita content.json y ya.
    ════════════════════════════════════════════════ */
 let D,L=localStorage.getItem('lang')||'es';
@@ -398,6 +398,11 @@ function render(){
   $('nlinks').innerHTML=secs.map(s=>`<li><a href="#${s}" onclick="clsM()">${n[s]}</a></li>`).join('');
   $('mm').innerHTML=secs.map(s=>`<a href="#${s}" onclick="clsM()">${n[s]}</a>`).join('');
 
+  // Logo (si hay imagen en content.json la usa, si no muestra texto)
+  if(D.empresa.logo&&imgExists(D.empresa.logo)){
+    $('nlogo-img').src=D.empresa.logo;$('nlogo-img').alt=D.empresa.nombre;$('nlogo-img').style.display='block';$('nlogo-txt').style.display='none';
+    $('ft-logo').innerHTML=`<img src="${D.empresa.logo}" alt="${D.empresa.nombre}" style="height:30px">`;
+  }
   // Hero
   $('htag').textContent=t(D.hero.etiqueta);
   $('htit').textContent=t(D.hero.titulo);
