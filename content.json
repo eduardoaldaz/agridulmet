@@ -1,14 +1,14 @@
 {
   "empresa": {
-    "nombre": "TropicFruitEC",
-    "whatsapp": "593412345678",
-    "email": "export@tropicfruitec.com",
-    "telefono": "+593 4 123 4567",
+    "nombre": "Agridulmet SA",
+    "whatsapp": "",
+    "email": "info@agridulmet.com",
+    "telefono": "",
     "direccion": { "es": "Guayaquil, Ecuador", "en": "Guayaquil, Ecuador" },
     "redes": {
-      "facebook": "https://facebook.com/tropicfruitec",
-      "instagram": "https://instagram.com/tropicfruitec",
-      "linkedin": "https://linkedin.com/company/tropicfruitec"
+      "facebook": "https://facebook.com/",
+      "instagram": "https://instagram.com/",
+      "linkedin": "https://linkedin.com/company/"
     }
   },
 
