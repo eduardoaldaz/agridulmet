@@ -1,0 +1,159 @@
+{
+  "empresa": {
+    "nombre": "TropicFruitEC",
+    "whatsapp": "593412345678",
+    "email": "export@tropicfruitec.com",
+    "telefono": "+593 4 123 4567",
+    "direccion": { "es": "Guayaquil, Ecuador", "en": "Guayaquil, Ecuador" },
+    "redes": {
+      "facebook": "https://facebook.com/tropicfruitec",
+      "instagram": "https://instagram.com/tropicfruitec",
+      "linkedin": "https://linkedin.com/company/tropicfruitec"
+    }
+  },
+
+  "hero": {
+    "etiqueta": { "es": "EXPORTACIÓN PREMIUM DESDE ECUADOR", "en": "PREMIUM EXPORT FROM ECUADOR" },
+    "titulo": { "es": "Del trópico ecuatoriano al mundo", "en": "From the Ecuadorian tropics to the world" },
+    "subtitulo": {
+      "es": "Exportamos banano, plátano y piña de la más alta calidad, cultivados con prácticas sostenibles y certificaciones internacionales.",
+      "en": "We export the highest quality bananas, plantains and pineapples, grown with sustainable practices and international certifications."
+    },
+    "imagen": "images/hero.jpg",
+    "boton1": { "es": "Conoce nuestros productos", "en": "Discover our products" },
+    "boton2": { "es": "Contáctanos", "en": "Contact us" }
+  },
+
+  "estadisticas": [
+    { "valor": "15+", "texto": { "es": "Años de experiencia", "en": "Years of experience" } },
+    { "valor": "30+", "texto": { "es": "Países destino", "en": "Destination countries" } },
+    { "valor": "100%", "texto": { "es": "Certificado orgánico", "en": "Organic certified" } },
+    { "valor": "50K+", "texto": { "es": "Toneladas/año", "en": "Tons/year" } }
+  ],
+
+  "productos": {
+    "etiqueta": { "es": "NUESTROS PRODUCTOS", "en": "OUR PRODUCTS" },
+    "titulo": { "es": "Frutas tropicales premium", "en": "Premium tropical fruits" },
+    "subtitulo": {
+      "es": "Cultivadas en las mejores tierras del Ecuador, bajo estrictos estándares de calidad y sostenibilidad.",
+      "en": "Grown in the best lands of Ecuador, under strict quality and sustainability standards."
+    },
+    "lista": [
+      {
+        "nombre": { "es": "Banano Premium", "en": "Premium Banana" },
+        "imagen": "images/banana.jpg",
+        "emoji": "🍌",
+        "descripcion": {
+          "es": "Banano Cavendish de exportación, cultivado orgánicamente en las tierras fértiles de la costa ecuatoriana. Calibre perfecto, maduración controlada.",
+          "en": "Cavendish export banana, organically grown in the fertile lands of the Ecuadorian coast. Perfect caliber, controlled ripening."
+        },
+        "caracteristicas": [
+          { "es": "Global G.A.P.", "en": "Global G.A.P." },
+          { "es": "Calibre 39-46", "en": "Caliber 39-46" },
+          { "es": "Maduración controlada", "en": "Controlled ripening" },
+          { "es": "Empaque al vacío", "en": "Vacuum packaging" }
+        ]
+      },
+      {
+        "nombre": { "es": "Plátano Barraganete", "en": "Barraganete Plantain" },
+        "imagen": "images/platano.jpg",
+        "emoji": "🥒",
+        "descripcion": {
+          "es": "Plátano verde de cocción, ideal para mercados internacionales. Gran tamaño, textura firme y sabor auténtico del trópico.",
+          "en": "Green cooking plantain, ideal for international markets. Large size, firm texture and authentic tropical flavor."
+        },
+        "caracteristicas": [
+          { "es": "Alto rendimiento", "en": "High yield" },
+          { "es": "Calibre superior", "en": "Superior caliber" },
+          { "es": "Larga vida útil", "en": "Long shelf life" },
+          { "es": "Trazabilidad completa", "en": "Full traceability" }
+        ]
+      },
+      {
+        "nombre": { "es": "Piña Golden MD2", "en": "Golden Pineapple MD2" },
+        "imagen": "images/pina.jpg",
+        "emoji": "🍍",
+        "descripcion": {
+          "es": "Piña extra dulce variedad MD2 (Golden), reconocida mundialmente por su sabor incomparable, aroma intenso y bajo nivel de acidez.",
+          "en": "Extra sweet pineapple, MD2 (Golden) variety, world-renowned for its incomparable flavor, intense aroma and low acidity."
+        },
+        "caracteristicas": [
+          { "es": "Variedad MD2 Golden", "en": "MD2 Golden variety" },
+          { "es": "16+ grados Brix", "en": "16+ Brix degrees" },
+          { "es": "Corona uniforme", "en": "Uniform crown" },
+          { "es": "Empaque premium", "en": "Premium packaging" }
+        ]
+      }
+    ]
+  },
+
+  "nosotros": {
+    "etiqueta": { "es": "SOBRE NOSOTROS", "en": "ABOUT US" },
+    "titulo": {
+      "es": "Tradición, calidad y compromiso con el planeta",
+      "en": "Tradition, quality and commitment to the planet"
+    },
+    "parrafos": [
+      {
+        "es": "Desde nuestras fincas en la costa ecuatoriana, exportamos frutas tropicales premium a más de 30 países. Nuestra pasión por la agricultura sostenible nos ha convertido en un referente de calidad en el mercado internacional.",
+        "en": "From our farms on the Ecuadorian coast, we export premium tropical fruits to more than 30 countries. Our passion for sustainable agriculture has made us a benchmark for quality in the international market."
+      },
+      {
+        "es": "Cada fruta que exportamos lleva consigo el compromiso de miles de familias ecuatorianas que trabajan día a día para llevar lo mejor del trópico a tu mesa.",
+        "en": "Every fruit we export carries the commitment of thousands of Ecuadorian families working every day to bring the best of the tropics to your table."
+      }
+    ],
+    "imagen": "images/nosotros.jpg",
+    "valores": [
+      { "icono": "🌱", "titulo": { "es": "Sostenibilidad", "en": "Sustainability" }, "desc": { "es": "Prácticas agrícolas que respetan el medioambiente y preservan los ecosistemas.", "en": "Agricultural practices that respect the environment and preserve ecosystems." } },
+      { "icono": "✅", "titulo": { "es": "Calidad Total", "en": "Total Quality" }, "desc": { "es": "Certificaciones internacionales que garantizan la excelencia en cada producto.", "en": "International certifications guaranteeing excellence in every product." } },
+      { "icono": "🤝", "titulo": { "es": "Comercio Justo", "en": "Fair Trade" }, "desc": { "es": "Relaciones equitativas con productores y comunidades locales.", "en": "Equitable relationships with producers and local communities." } },
+      { "icono": "🌍", "titulo": { "es": "Alcance Global", "en": "Global Reach" }, "desc": { "es": "Red logística que conecta Ecuador con mercados en todo el mundo.", "en": "Logistics network connecting Ecuador with markets worldwide." } }
+    ]
+  },
+
+  "proceso": {
+    "etiqueta": { "es": "NUESTRO PROCESO", "en": "OUR PROCESS" },
+    "titulo": { "es": "De la finca a tu destino", "en": "From farm to your destination" },
+    "subtitulo": {
+      "es": "Un proceso riguroso que garantiza la máxima frescura y calidad en cada envío.",
+      "en": "A rigorous process that guarantees maximum freshness and quality in every shipment."
+    },
+    "pasos": [
+      { "num": "01", "titulo": { "es": "Cultivo", "en": "Cultivation" }, "desc": { "es": "Selección de las mejores tierras y semillas, con prácticas orgánicas certificadas y riego tecnificado.", "en": "Selection of the best lands and seeds, with certified organic practices and technified irrigation." } },
+      { "num": "02", "titulo": { "es": "Cosecha", "en": "Harvest" }, "desc": { "es": "Recolección en el punto óptimo de madurez, con mano de obra capacitada y herramientas especializadas.", "en": "Collection at the optimal point of maturity, with trained labor and specialized tools." } },
+      { "num": "03", "titulo": { "es": "Control de Calidad", "en": "Quality Control" }, "desc": { "es": "Inspección rigurosa de calibre, color, textura y peso. Solo el mejor producto pasa al empaque.", "en": "Rigorous inspection of caliber, color, texture and weight. Only the best goes to packaging." } },
+      { "num": "04", "titulo": { "es": "Empaque", "en": "Packaging" }, "desc": { "es": "Empaque en instalaciones climatizadas con tecnología de punta para preservar la frescura.", "en": "Packaging in climate-controlled facilities with cutting-edge technology to preserve freshness." } },
+      { "num": "05", "titulo": { "es": "Logística", "en": "Logistics" }, "desc": { "es": "Cadena de frío ininterrumpida desde la planta hasta el puerto de embarque internacional.", "en": "Uninterrupted cold chain from the plant to the international shipping port." } },
+      { "num": "06", "titulo": { "es": "Exportación", "en": "Export" }, "desc": { "es": "Embarque en contenedores refrigerados con monitoreo satelital en tiempo real.", "en": "Shipping in refrigerated containers with real-time satellite monitoring." } }
+    ]
+  },
+
+  "galeria": {
+    "etiqueta": { "es": "GALERÍA", "en": "GALLERY" },
+    "titulo": { "es": "Nuestro mundo en imágenes", "en": "Our world in images" },
+    "subtitulo": {
+      "es": "Descubre las fincas, procesos y personas detrás de cada fruta que exportamos.",
+      "en": "Discover the farms, processes and people behind every fruit we export."
+    },
+    "imagenes": [
+      { "src": "images/galeria-1.jpg", "texto": { "es": "Plantaciones de banano", "en": "Banana plantations" } },
+      { "src": "images/galeria-2.jpg", "texto": { "es": "Cosecha manual", "en": "Manual harvest" } },
+      { "src": "images/galeria-3.jpg", "texto": { "es": "Selección de calidad", "en": "Quality selection" } },
+      { "src": "images/galeria-4.jpg", "texto": { "es": "Empaque profesional", "en": "Professional packaging" } },
+      { "src": "images/galeria-5.jpg", "texto": { "es": "Logística portuaria", "en": "Port logistics" } },
+      { "src": "images/galeria-6.jpg", "texto": { "es": "Exportación mundial", "en": "Global export" } }
+    ]
+  },
+
+  "certificaciones": ["Global G.A.P.", "USDA Organic", "Rainforest Alliance", "Fair Trade", "ISO 22000", "HACCP"],
+
+  "contacto": {
+    "etiqueta": { "es": "CONTACTO", "en": "CONTACT" },
+    "titulo": { "es": "Conectemos", "en": "Let's connect" },
+    "subtitulo": {
+      "es": "¿Interesado en importar frutas premium de Ecuador? Escríbenos y un asesor te contactará en menos de 24 horas.",
+      "en": "Interested in importing premium fruits from Ecuador? Write to us and an advisor will contact you in less than 24 hours."
+    }
+  }
+}
