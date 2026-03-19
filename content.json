@@ -13,7 +13,7 @@
   },
 
   "hero": {
-    "etiqueta": { "es": "EXPORTACIÓN PREMIUM DESDE ", "en": "PREMIUM EXPORT FROM ECUADOR" },
+    "etiqueta": { "es": "EXPORTACIÓN PREMIUM DESDE ECUADOR", "en": "PREMIUM EXPORT FROM ECUADOR" },
     "titulo": { "es": "Del trópico ecuatoriano al mundo", "en": "From the Ecuadorian tropics to the world" },
     "subtitulo": {
       "es": "Exportamos banano, plátano y piña de la más alta calidad, cultivados con prácticas sostenibles y certificaciones internacionales.",
